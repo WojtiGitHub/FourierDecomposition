@@ -10,9 +10,9 @@ N = 1024;        % liczba próbek
 dt = T/(N-1);
 t = -T/2:dt:T/2; % wektor czasu
 
-Max = 20;        % Gróna granica sumy
+Max = 20;        % górna granica sumy
 
-%% Tworzenie funkcji ala trójkątnej
+%% Tworzenie funkcji
 
 rise = (1:1:256)/256;
 fall = fliplr(rise);
