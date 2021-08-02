@@ -73,14 +73,14 @@ omega = [2*pi/T*(1:1:Max)];
 
 figure(4);
 stem(omega, Amp);
-title('Amplitude of sinusiodal function versus frequency');
+title('Amplituda dla kolejnych harmonicznych');
 xlabel('omega [rad/s]');
 ylabel('Amplitude');
 grid on;
 
 figure(5);
 stem(omega, Phase);
-title('Phase of sinusiodal function versus frequency');
+title('Przesunięcie fazowe dla kolejnych harmonicznych');
 xlabel('omega [rad/s]');
 ylabel('Phase [rad]');
 grid on;
