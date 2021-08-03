@@ -1,1 +1,1 @@
-# DekompozycjaFouriera
+# FourierDecomposition
